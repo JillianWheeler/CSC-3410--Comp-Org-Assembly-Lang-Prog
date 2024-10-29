@@ -1,0 +1,23 @@
+Hello!
+
+Welcome to my assignment 2 for CSC 3410.
+
+There are four seperate .asm's that are in this tarball. 
+The adding, multiplying, division, and swapping programs.
+
+I used the provided document as well as the video lectures to aid in this 
+assignment.
+
+I also used rescources such as stackoverflow, youtube, and other
+program learning sites. 
+
+To compile use these commands:
+
+nasm -g -f elf -F dwarf -o p1.o p1.asm
+ld p1.o -m elf_i386 -o p1
+
+To run the program simply type:
+./p1
+
+Just replace p1 with whatever number of the assignment it is!
+
